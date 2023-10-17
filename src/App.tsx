@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-import { TodoList } from './components/TodoList';
 
 const App = () => {
   return (
@@ -10,8 +9,12 @@ const App = () => {
             <div className="form">
                 <input className="input" type="text" placeholder="Add your task" />
                 <button className="button">Submit</button>
-          </div>
-         <TodoList />
+            </div>
+
+            <ul  className="list">
+                <li>Walk the dog</li>
+            </ul>
+
         </div>
     </div>
   );
