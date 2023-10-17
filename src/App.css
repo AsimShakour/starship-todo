@@ -1,0 +1,25 @@
+.App {
+  max-width: 600px;
+  margin: auto;
+}
+
+.input {
+  font-size: 14px;
+  padding: 10px;
+  margin-right: 5px;
+  width: 50%;
+}
+
+.button {
+  padding: 10px;
+}
+
+.form {
+  display: flex;
+}
+
+.list {
+  background: #f4f4f4;
+  border-radius: 5px ;
+  padding: 30px;
+}
