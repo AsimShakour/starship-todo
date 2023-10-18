@@ -1,7 +1,5 @@
 # Getting Started with the Starship ToDo List
 
-##  Get Started
-
 ### `npm start`
 
 Runs the app in the development mode.\
@@ -17,9 +15,9 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 
 ## Live Coding
 
-- Load the list from a JSON Object.
-- Use text input and button to add a new item to the Todo list.
+- Load the initial list from JSON file or Javascript object.
+- Use the text input and button to add a new item to the Todo list.
 - Add a button next to each item in order to delete that item from the list.
 - Separeate the list to a separate component.
 - Style the list: Remove bullets and place the delete button to the right of the row.
-- Optimize rendering of list items with React.memo
+- Optimize rendering of the list items with React.memo
