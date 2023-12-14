@@ -15,9 +15,9 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 
 ## Live Coding
 
-- Load the initial list from JSON file or Javascript object.
-- Use the text input and button to add a new item to the Todo list.
+- Load the initial list from a JSON file or Javascript object.
+- Use the text input and button to add a new item to the Todo list. Does not have to be persistent.
 - Add a button next to each item in order to delete that item from the list.
 - Separeate the list to a separate component.
 - Style the list: Remove bullets and place the delete button to the right of the row.
-- Optimize rendering of the list items with React.memo
+- Optional: Optimize the rendering of the list items.
