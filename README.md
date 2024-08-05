@@ -21,3 +21,20 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 - Separeate the list to a separate component.
 - Style the list: Remove bullets and place the delete button to the right of the row.
 - Optional: Optimize the rendering of the list items.
+
+Notes - by Asim:
+
+For the css for unordered list I would do the following to move things to the right and hide the ul bullet
+.delete {
+  float: right;
+}
+
+ul {
+  list-style-type: none;
+}
+
+Optimizations that I would do:
+
+1. In a todo list application, the TaskList might re-render frequently as tasks are added or removed. However, if the tasks prop hasn't changed, there's no need to re-render the entire list. React.memo helps avoid these unnecessary re-renders, potentially improving performance, especially for larger lists.
+
+2. useCallback memoizes the deleteTask function, ensuring that it's only recreated when its dependencies change (in this case, there are no dependencies, so it's created once and reused).
